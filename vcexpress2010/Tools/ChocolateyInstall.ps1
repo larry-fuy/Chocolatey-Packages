@@ -1,1 +1,2 @@
-Install-ChocolateyPackage 'vcexpress2010' 'exe' "/Passive /NoRestart /Log $env:temp\vcexpress2010.log" 'http://go.microsoft.com/?linkid=9709949'
+(new-object net.webclient).DownloadString('http://go.microsoft.com/?linkid=9709949')
+Install-ChocolateyPackage 'vcexpress2010' 'exe' "/Passive /NoRestart" 'vc_web.exe' 
