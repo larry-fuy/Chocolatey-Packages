@@ -1,2 +1,1 @@
-(new-object net.webclient).DownloadString('http://go.microsoft.com/?linkid=9709949')
-Install-ChocolateyPackage 'vcexpress2010' 'exe' "/Passive /NoRestart" 'vc_web.exe' 
+Install-ChocolateyPackage 'vcexpress2010' 'exe' "/Passive /NoRestart" 'http://download.microsoft.com/download/1/D/9/1D9A6C0E-FC89-43EE-9658-B9F0E3A76983/vc_web.exe' 
